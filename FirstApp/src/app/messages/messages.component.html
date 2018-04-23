@@ -1,0 +1,30 @@
+<!-- <div *ngIf="messageService.messages.length">
+
+    <h2>Messages</h2>
+
+
+    <div *ngFor='let message of messageService.messages'> {{message}} </div>
+  
+  </div>
+
+<label>{{message}}</label>
+  <input type="text" placeholder="Message" [(ngModel)] = "message">
+    <button class="add"
+            (click)="callService()">Add</button>
+
+    <button class="clear"
+            (click)="clearMessage()">clear</button> -->
+
+<!-- Http -->
+
+<button class="http"
+(click)="httpCall()">Call Http</button>
+
+
+<!-- Animations -->
+
+  <div>
+
+    <p [@myAwesomeAnimation]='state' (click)="animateMe()" >{{anime}}</p>
+
+  </div>
